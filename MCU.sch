@@ -444,7 +444,7 @@ L Device:R_Small R23
 U 1 1 6086337D
 P 9700 2650
 F 0 "R23" V 9700 2600 50  0000 L CNN
-F 1 "3.7k" V 9600 2550 50  0000 L CNN
+F 1 "2k2" V 9600 2550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9700 2650 50  0001 C CNN
 F 3 "~" H 9700 2650 50  0001 C CNN
 	1    9700 2650
@@ -455,7 +455,7 @@ L Device:R_Small R24
 U 1 1 60863383
 P 9700 2900
 F 0 "R24" V 9700 2850 50  0000 L CNN
-F 1 "3.7k" V 9600 2800 50  0000 L CNN
+F 1 "2k2" V 9600 2800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9700 2900 50  0001 C CNN
 F 3 "~" H 9700 2900 50  0001 C CNN
 	1    9700 2900
@@ -791,7 +791,7 @@ Wire Wire Line
 	6150 2850 6550 2850
 Wire Wire Line
 	6150 2650 6550 2650
-Text HLabel 6350 3900 2    50   Input ~ 0
+Text HLabel 6350 4000 2    50   Input ~ 0
 M2
 $Comp
 L power:GNDA #PWR097
@@ -12486,11 +12486,11 @@ Text HLabel 6350 6900 2    50   Input ~ 0
 SPI2_MISO
 Text HLabel 6350 6700 2    50   Input ~ 0
 SPI2_CS
-Text HLabel 6350 3800 2    50   Input ~ 0
-M1
 Text HLabel 6350 4100 2    50   Input ~ 0
+M1
+Text HLabel 6350 3800 2    50   Input ~ 0
 M4
-Text HLabel 6350 4000 2    50   Input ~ 0
+Text HLabel 6350 3900 2    50   Input ~ 0
 M3
 Text HLabel 6350 4200 2    50   Input ~ 0
 SPI1_CS
@@ -15660,10 +15660,10 @@ Text Label 5050 5800 2    50   ~ 0
 LED_3
 Text Label 5050 5900 2    50   ~ 0
 LED_4
-Text HLabel 6350 5900 2    50   Input ~ 0
+Text HLabel 6350 6000 2    50   Input ~ 0
 LED_STRIP
 NoConn ~ 6350 4800
-Text Label 6350 6000 0    50   ~ 0
+Text Label 6350 5900 0    50   ~ 0
 BUZ_MCU
 Text HLabel 5050 6000 0    50   Input ~ 0
 ADC

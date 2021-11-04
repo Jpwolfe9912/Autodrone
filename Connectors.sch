@@ -184,19 +184,6 @@ F 3 "" H 1650 6700 50  0001 C CNN
 	1    1650 6700
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60A8659D
-P 1650 6600
-AR Path="/60A8659D" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8659D" Ref="#PWR080"  Part="1" 
-F 0 "#PWR080" H 1650 6450 50  0001 C CNN
-F 1 "+5V" V 1650 6700 50  0000 L CNN
-F 2 "" H 1650 6600 50  0001 C CNN
-F 3 "" H 1650 6600 50  0001 C CNN
-	1    1650 6600
-	0    -1   -1   0   
-$EndComp
 Text Notes 1500 6450 0    118  ~ 24
 UARTS
 $Comp
@@ -13922,5 +13909,16 @@ F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5950 7450 50  0001 C
 F 3 "~" H 5950 7450 50  0001 C CNN
 	1    5950 7450
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:+4V5 #PWR?
+U 1 1 6186F9D7
+P 1700 6600
+F 0 "#PWR?" H 1875 6675 50  0001 C CNN
+F 1 "+4V5" V 1685 6778 50  0000 L CNN
+F 2 "" H 1700 6600 50  0001 C CNN
+F 3 "" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

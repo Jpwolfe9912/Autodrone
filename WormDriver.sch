@@ -150,17 +150,6 @@ F 3 "~" H 5400 3950 50  0001 C CNN
 	1    5400 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 6173ACFE
-P 5050 3950
-F 0 "C26" H 4900 4000 50  0000 L CNN
-F 1 "100uF" H 4750 3900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5050 3950 50  0001 C CNN
-F 3 "~" H 5050 3950 50  0001 C CNN
-	1    5050 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5050 4050 5400 4050
 $Comp
@@ -174,7 +163,6 @@ F 3 "" H 5050 4050 50  0001 C CNN
 	1    5050 4050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5050 4050
 $Comp
 L power:+5V #PWR052
 U 1 1 6173D637
@@ -227,7 +215,6 @@ Text Label 6350 4250 2    50   ~ 0
 VREFB
 Wire Wire Line
 	5050 3850 5400 3850
-Connection ~ 5050 3850
 Connection ~ 5400 3850
 Wire Wire Line
 	5400 3850 5650 3850
@@ -8367,4 +8354,17 @@ F 3 "" H 6800 3950 50  0001 C CNN
 $EndComp
 Text Notes 1650 2350 0    591  ~ 118
 Worm Motor Driver
+$Comp
+L Device:CP1_Small C26
+U 1 1 61830E33
+P 5050 3950
+F 0 "C26" H 4850 4000 50  0000 L CNN
+F 1 "100uF" H 4800 3900 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder" H 5050 3950 50  0001 C CNN
+F 3 "~" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 3850
+Connection ~ 5050 4050
 $EndSCHEMATC
